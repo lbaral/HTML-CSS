@@ -1,0 +1,7 @@
+Type in two cells
+Red	          <div class='fa fa-circle' style='color:red'></div>                  ---- Named cell as red
+Yellow	      <div class='fa fa-circle' style='color:yellow'></div>               ---- Named range as yellow
+Green	        <div class='fa fa-circle' style='color:green'></div>                ---- Named range as green
+
+Formula
+=IF(K23=0,yellowIcon,IF((($H23-K23)/K23)<lvar,redIcon,greenIcon))
